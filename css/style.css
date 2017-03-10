@@ -120,7 +120,7 @@ header .profile
 
     width: 60%;
     margin: 0 auto;
-    padding: 60px 0;
+    padding: 60px 0 0;
 }
 header .site-title
 {
@@ -155,7 +155,7 @@ header p
 ------------------------------------------------------------*/
 section
 {
-    padding: 60px 0;
+    padding: 60px 0 1px ;
 }
 section .container
 {
@@ -399,4 +399,21 @@ footer
 
     color: #fff;
     background-color: #30322F;
+}
+
+/* 親子のシルエット
+------------------------------------------------------------*/
+.family-img
+{
+     display: block;
+     margin-left: auto;
+     margin-right: 20%;
+     margin-top: 10px;
+}
+.family-run
+{
+     display: block;
+     margin-left: 20%;
+     margin-right: auto;
+     margin-top: 0;
 }
